@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = [
+  "crates/*",
+]
+exclude = []
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.85.0"
+
+[workspace.dependencies]
+
+[patch.crates-io]
